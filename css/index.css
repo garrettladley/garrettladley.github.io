@@ -1,23 +1,23 @@
-*{ 
-    font-family: 'Libre Baskerville', sans-serif;
-  }
-  
-  html {
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  body{
-    width: 100%;
-    margin:0px;
-
+* {
+  font-family: 'Libre Baskerville', sans-serif;
 }
-.topnav {
-  background-color: rgb(51,71,89);
+
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.top-nav-bar {
+  background-color: rgb(51, 71, 89);
   overflow: hidden;
 }
 
-.topnav a {
+.top-nav-bar a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -26,71 +26,61 @@
   font-size: 17px;
 }
 
-.topnav a:hover {
+.top-nav-bar a:hover {
   background-color: white;
-  color: rgb(51,71,89);
+  color: rgb(51, 71, 89);
 }
 
-.topnav a.active {
+.top-nav-bar a.active {
   background-color: #228B22;
   color: white;
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-  }
-
-.nav-item {
-	text-align: right;
-	margin-right: 40px;
-	text-transform: uppercase;
-	font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
+.left {
+  background-image: url("/images/garrett_ladley_fall21.jpeg");
+  background-position: center;
+  background-size: cover;
+  max-height: 100%;
+  height: 750px;
+  max-width: 66.7%;
+  width: 66.7%;
+}
 
-  .background-overlay {
-    height: 750px;
-    width: 33.3%;
-    padding-top: 30px;
-  }
+.right {
+  height: 750px;
+  width: 33.3%;
+  padding-top: 30px;
+}
 
-.intro-big-text {
+.big-text {
   text-align: center;
-    font-weight: 500;
-    font-size: 50pt;
-    font-family: 'EB Garamond', sans-serif;
-}
-.intro-body {
-    margin: 75px 25px;
+  font-weight: 500;
+  font-size: 50pt;
+  font-family: 'EB Garamond', sans-serif;
 }
 
-.intro-logos {
-    margin-top: 15px;
-    height: 60px;
+.paragraph {
+  margin: 25px 25px;
 }
 
-#logos{
+.logo-group {
   text-align: center;
 }
 
-  .intro-rectangle {
-    float: left;
-    margin: 10 0 0 -25;
-    border-top: 5px solid rgb(51,71,89);
-    border-right: 5px solid rgb(51,71,89);
-    height: 0;
-    width: 100%;
-  }
+.logo {
+  margin-top: 50px;
+  height: 60px;
+}
 
-
-  .glImage {
-    background-image: url("/images/garrett_ladley_fall21.jpeg");
-    background-position: center;
-    background-size: cover;
-    max-height: 100%;
-    height:750px;
-    max-width: 66.7%;
-    width: 66.7%;
-  }
+.rectangle {
+  margin: 10 0 0 10;
+  border-top: 5px solid rgb(51, 71, 89);
+  height: 0;
+  width: 100%;
+}
