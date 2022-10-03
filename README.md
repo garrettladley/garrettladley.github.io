@@ -1,1 +1,1 @@
-Personal website created with HTML and CSS check it out at [garrett-ladley.com](https://garrett-ladley.com)
+Teaching myself how to use HTML, CSS, and eventually JavaScript by making a personal website. Check out what I've learned so far at [garrett-ladley.com](https://garrett-ladley.com)
