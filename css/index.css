@@ -1,15 +1,11 @@
 * {
   font-family: 'Libre Baskerville', sans-serif;
+  box-sizing:border-box
 }
 
 html {
   overflow-x: hidden;
   overflow-y: scroll;
-}
-
-body {
-  width: 100%;
-  margin: 0px;
 }
 
 .top-nav-bar {
@@ -42,7 +38,7 @@ body {
   width: 100%;
 }
 
-.left {
+#leftIndex{
   background-image: url("/images/garrett_ladley_fall21.jpeg");
   background-position: center;
   background-size: cover;
@@ -52,8 +48,8 @@ body {
 
 .right {
   height: 750px;
-  width: 33.3%;
   padding-top: 30px;
+  width: 33.3%;
 }
 
 .big-text {
